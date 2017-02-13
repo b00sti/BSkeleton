@@ -7,6 +7,8 @@ import android.graphics.Color;
  */
 
 public class ColorUtils {
+    private ColorUtils() {
+    }
 
     public static int parseColorFromString(String color) {
         int colorInt;

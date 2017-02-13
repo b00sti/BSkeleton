@@ -21,6 +21,9 @@ public class TimeUtils {
     private static final String TAG = "TimeUtils";
     public static long MILLIS_IN_DAY = 86400000L;
 
+    private TimeUtils() {
+    }
+
     public static long getCurrentTimeMillis() {
         Calendar currentTime = Calendar.getInstance();
         long time = currentTime.getTimeInMillis() / 1000;

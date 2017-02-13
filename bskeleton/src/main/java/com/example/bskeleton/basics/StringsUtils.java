@@ -5,9 +5,7 @@ package com.example.bskeleton.basics;
  */
 
 public class StringsUtils {
-
     private StringsUtils() {
-        // No instances.
     }
 
     public static boolean isBlank(CharSequence string) {

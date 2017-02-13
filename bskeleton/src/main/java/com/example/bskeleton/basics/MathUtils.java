@@ -7,6 +7,9 @@ package com.example.bskeleton.basics;
 public class MathUtils {
     private static final String TAG = "MathUtils";
 
+    private MathUtils() {
+    }
+
     public static double calculateDistance(double lat1, double lon1, double lat2, double lon2) {
         // haversine great circle distance approximation, returns meters
         double theta = lon1 - lon2;

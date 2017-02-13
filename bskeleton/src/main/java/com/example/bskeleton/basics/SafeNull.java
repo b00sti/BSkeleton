@@ -7,7 +7,6 @@ import java.util.Collection;
  */
 
 public class SafeNull {
-    //prevent creating object
     private SafeNull() {
     }
 
